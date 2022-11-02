@@ -1,10 +1,3 @@
-// IMPORT MODULES under test here:
-
-const test = QUnit.test;
-
-test('should return a string describing the current state', (expect) => {
-
-    //Expect
-    // Make assertions about what is expected versus the actual result
-    expect.equal(true, true);
-});
+export function createStatsString(headNum, middleNum, bottomNum) {
+    return 'You have changed the head ${headNum} times, the body ${middleNum}, and the pants ${bottomNum} times. And nobody can forget your characters classic catchphrases:';
+}
